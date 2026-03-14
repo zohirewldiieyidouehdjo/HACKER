@@ -5,7 +5,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # 1-bosqichda olgan ulanish kodingizni shu yerga qo'ying
-MONGO_URI = "mongodb+srv://Zohir:<db_hacker>@hack.qeybwsc.mongodb.net/?appName=HACK"
+MONGO_URI = "mongodb+srv://Zohir:hacker@hack.qeybwsc.mongodb.net/?appName=HACK"
 client = MongoClient(MONGO_URI)
 db = client['kiber_loyiha']
 collection = db['foydalanuvchilar']
